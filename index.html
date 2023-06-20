@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Donut Clicker</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to Fred the Baker Baking Company!</h1>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </div>
+    <main>
+        <div class="container">
+            <section id="Home">
+                <div class="flex-50">
+                    <div class="left">
+                        <p>Donuts Created : <span id="dCreated">0</span></p>
+                        <p>Donuts needed for the Auto Clicker : <span id="dneeded">0</span></p>
+                        <img src="donut.jpg" alt="Donut Image" id="donut" width="150px" height="150px">
+                        <p>Click on Donut image to Create Donut</p>
+                    </div>
+                    <div class="right">
+                        <button id="autoClicker">Purchase Auto Clicker</button>
+                        <p>Total Auto Clicker purchased : <span id="totalAutoClicker">0</span></p>
+                        <button id="reset">Reset Game</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="About">
+                <div class="about">
+                    <p>
+                    <h1>Fred the Baker Baking Company</h1>
+                    </p>
+                    <p>
+                    <h3>The inspiration for this game, Cookie Clicker</h3>
+                    </p>
+                    <p>Donut Clicker is a clicker game where you bake donuts by clicking. You can spend your donuts to
+                        upgrade your clicking power, idle income, and buy auto-clickers. The game has lots of features
+                        and an online leaderboard where players compete to be the biggest earners!
+                    <ul>
+                        <li>Donut Count</li><p>The number of Donuts you have created by clicking, either manually or
+                        with an Auto Clicker.</p>
+                        <li>Auto Clicker</li><p>Auto Clickers will automatically click for you every second, so you
+                        don't have to click manually.</p>
+                        <li>Auto Clicker Count</li><p>The number of Auto Clickers purchased. Auto Clickers apply one
+                        click per second for every Auto Clicker purchased.</p>
+                        <li>Auto Clicker Cost</li><p>The number of donuts required to purchase an Auto Clicker.
+                        Starting cost is 100 donuts. For each Auto Clicker purchased, the cost of the next Auto Clicker
+                        increases by 10%.</p>
+                    </ul>
+                    </p>
+                </div>
+            </section>
+
+            <section id="Contact">
+                <p>Ajay Patel, Copy Right @2023</span></p>
+            </section>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
